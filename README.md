@@ -65,7 +65,9 @@ Select this button from the DOM, and click it with `cookie_accept = driver.find_
   
 Give your project a save, then open your Command Prompt at your current directory.
     
-You can now run the scripts with: `python ./name_of_file`
+You can now run the scripts with:   
+on Windows: `python ./name_of_file.py`  
+on Mac/Linux: `python3 name_of_file.py`
 
 Congrats! You just automated a button click on a website.
     
