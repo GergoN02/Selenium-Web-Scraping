@@ -7,7 +7,14 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 from datetime import datetime
 
-DRIVER_PATH = Service("C:\chromedriver.exe")
+# For Windows
+# DRIVER_PATH = Service("C:\chromedriver.exe")
+
+
+# For Linux/Mac
+DRIVER_PATH = Service(
+    "/home/users/your_username/Documents/Selenium_LAB/chromedriver")
+
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
