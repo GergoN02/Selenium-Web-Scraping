@@ -10,6 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # For Windows
 # DRIVER_PATH = Service("C:\chromedriver.exe")
 
+
 # For Linux/Mac
 DRIVER_PATH = Service("/home/users/your_username/Documents/Selenium_LAB/chromedriver")
 
