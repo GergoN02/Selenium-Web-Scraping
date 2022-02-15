@@ -1,5 +1,7 @@
 # Selenium-Web-Scraping
 
+You can access the accompanying presentation [here](https://docs.google.com/presentation/d/1xBq8uvsD3wMb_3jCKFcecXZZ1JzsMyMmDE3DOurjL-w/edit?usp=sharing).
+
 ## Prerequisites
 
 ### Make sure you have python 3 installed! You can verify this:
