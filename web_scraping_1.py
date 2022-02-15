@@ -7,7 +7,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-DRIVER_PATH = Service("C:\chromedriver.exe")
+# For Windows
+# DRIVER_PATH = Service("C:\chromedriver.exe")
+
+# For Linux/Mac
+DRIVER_PATH = Service("/home/users/your_username/Documents/Selenium_LAB/chromedriver")
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
