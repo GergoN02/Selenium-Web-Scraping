@@ -4,7 +4,9 @@ You can access the accompanying presentation [here](https://docs.google.com/pres
 
 ## Prerequisites
 
-### Make sure you have python 3 installed! You can verify this:
+### Make sure you have python 3 installed! You can verify this:  
+
+### Do this on your own PC at home, this won't work on Uni PCs:
 
 on Windows, open a new Command Prompt, and type `python`, and if you enter python shell `>>>`, you're good to go.  
 on Mac/Linux, open a new Terminal window, and type `python` or `python3`.
@@ -13,9 +15,15 @@ on Mac/Linux, open a new Terminal window, and type `python` or `python3`.
 
 type `pip -V` in your current shell.
 
+### For Uni PCs, we need a Python Virtual Environment:
+
+Create a folder for your project and navigate to it using your terminal.   
+Type `virtualenv --python python3.7 venv`, then type `source venv/bin/activate` to activate your virtual environment.
+
+
 ### Next, we need our modules
 
-To install Selenium, type `pip install selenium`, to install Pandas, type `pip install pandas`
+To install Selenium, type `pip3 install selenium`, to install Pandas, type `pip3 install pandas`. Note `pip3` should be changed to `pip` on windows.
 
 ### Let's grab our Web-Driver
 
