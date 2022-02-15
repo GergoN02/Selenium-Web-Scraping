@@ -43,6 +43,7 @@ If your installation failed, it will give you an import error, otherwise you get
 
 Selenium should now be installed just fine, so create a new file to work in.  
 To make your life easier, add a `DRIVER_PATH` variable for your webdriver, such as `DRIVER_PATH = Service("D:\Selenium_LAB\chromedriver.exe")`.  
+Note: For Linux, this PATH looks more like `DRIVER_PATH = Service("/home/users/your_username/Documents/Selenium_LAB/chromedriver")`  
 The import for this is `from selenium.webdriver.chrome.service import Service`, if you use VSCode, you will likely get import suggestions for Selenium modules.
 
 There are some known bugs with a few current chrome versions, just add `options = webdriver.ChromeOptions()` and `options.add_experimental_option('excludeSwitches', ['enable-logging'])`.  
