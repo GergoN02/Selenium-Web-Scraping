@@ -39,7 +39,7 @@ There are some known bugs with a few current chrome versions, just add `options 
 
 Next, we need to instantiate our webdriver with the pre-defined options, such as `driver = webdriver.Chrome(service=DRIVER_PATH, options=options)`.  
   
-From now on, most actions we call in the script will use this driver variable for context, such as `driver.get(), etc...`
+From now on, most actions we call in the script will use this driver variable for context, such as `driver.get()` etc...
 
 
 ### Targeting a site to scrape
