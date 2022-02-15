@@ -17,6 +17,7 @@ type `pip -V` in your current shell.
 
 ### For Uni PCs, we need a Python Virtual Environment:
 
+Generally speaking, it is a good idea to run scripts in their respective Virtual Environments. This way you can isolate your python packages to specific scripts/projects and avoid clashing versions or compatibility issues.  
 Create a folder for your project and navigate to it using your terminal.   
 Type `virtualenv --python python3.7 venv`, then type `source venv/bin/activate` to activate your virtual environment.
 
