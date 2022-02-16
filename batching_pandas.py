@@ -8,12 +8,12 @@ import pandas as pd
 from datetime import datetime
 
 # For Windows
-# DRIVER_PATH = Service("C:\chromedriver.exe")
+DRIVER_PATH = Service(
+    r"C:\Users\nemet\Desktop\Dev\Selenium-Web-Scraping\chromedriver.exe")
 
 
 # For Linux/Mac
-DRIVER_PATH = Service(
-    "/home/users/your_username/Documents/Selenium_LAB/chromedriver")
+# DRIVER_PATH = Service("/home/users/your_username/Documents/Selenium_LAB/chromedriver")
 
 
 options = webdriver.ChromeOptions()
